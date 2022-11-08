@@ -1,0 +1,29 @@
+$head-color:white;
+$para-color:hsl(0, 0%, 81%);
+$black-head:black;
+$pad:10px;
+.card3
+{
+    h3{
+        color: $head-color;
+        padding: $pad;
+    }
+    p{
+        color: $para-color;
+        padding: $pad;
+    }
+}
+.card4,.card1
+{
+    @extend .card3 ;  
+}
+.card2,.card5
+{
+    h3{
+        color: $black-head;
+        padding: $pad;
+    }    p{
+        color: gray;
+        padding: $pad;
+    }
+}

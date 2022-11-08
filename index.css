@@ -1,0 +1,17 @@
+.card3 h3, .card4 h3, .card1 h3 {
+  color: white;
+  padding: 10px;
+}
+.card3 p, .card4 p, .card1 p {
+  color: hsl(0deg, 0%, 81%);
+  padding: 10px;
+}
+
+.card2 h3, .card5 h3 {
+  color: black;
+  padding: 10px;
+}
+.card2 p, .card5 p {
+  color: gray;
+  padding: 10px;
+}/*# sourceMappingURL=index.css.map */
